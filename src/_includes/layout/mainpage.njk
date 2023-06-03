@@ -33,10 +33,6 @@
         </header>
         <!-- Services-->
         <section class="page-section" id="services">
-{{content | safe}}
-{% for h in collections.milestone %}
-    <h2>{{h.data.title}}</h2>
-{% endfor %}
             {% include "services.njk" %}
         </section>
         <!-- Portfolio Grid-->
